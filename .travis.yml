@@ -13,7 +13,7 @@ matrix:
     - os: linux
       dist: xenial
       rvm: "2.7"
-      compiler: clang
+      compiler: Clang
 
 before_install:
   - if [ "$TRAVIS_OS_NAME" == "linux" ]; then sudo apt-get install --assume-yes --quiet gcc-multilib; fi
